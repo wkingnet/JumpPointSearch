@@ -5,7 +5,7 @@ Fork from https://github.com/KumarRobotics/jps3d and modify for Visual Studio so
 Now just install Visual Studio and vcpkg, you can run it.
 
 # Install
-1. Install vcpkg if you haven't installed vcpkg yet. And integrated with VS.
+1. Install vcpkg if you haven't installed vcpkg yet. And integrated vcpkg with VS.
 2. use vcpkg to install yaml-cpp and Eigen3
 ```
 vcpkg install yaml-cpp eigen3 --triplet x64-windows

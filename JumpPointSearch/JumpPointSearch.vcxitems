@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{cf3adc92-f3e4-4c4c-81df-454bf2b8b334}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)data_type.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)data_utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)distance_map_planner.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graph_search_dmp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)graph_search_jps.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)map_util.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)read_map.hpp" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)timer.hpp" />
+  </ItemGroup>
+</Project>

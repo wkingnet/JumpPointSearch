@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
   // Plot the result in svg image
   typedef boost::geometry::model::d2::point_xy<double> point_2d;
   // Declare a stream and an SVG mapper
-  std::ofstream svg("output.svg");
+  std::ofstream svg("output_test_distance_map_planner_2d.svg");
   boost::geometry::svg_mapper<point_2d> mapper(svg, 1000, 1000);
 
   // Draw the canvas

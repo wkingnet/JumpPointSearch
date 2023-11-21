@@ -15,3 +15,9 @@
 @echo ===========================
 @..\release\test_distance_map_planner_2d.exe ..\data\corridor.yaml
 @pause
+
+@echo ===========================
+@echo NOW TEST create_map.exe
+@echo ===========================
+@..\release\create_map.exe
+@pause
